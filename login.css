@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto Condensed, sans-serif;
+    background: image ("lua cheia.jpg");
+}
+
+form {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+    }
+
+form > input {
+    flex: 1 1 10ch;
+    margin: .5rem;
+    text-align: left;
+    }
+
+form > input[type="email"] {
+    flex: 3 1 10ch;
+    margin: .5rem;
+    text-align: left;
+    }
+        
+input {
+    border: none;
+    background: hsl(0, 0%, 93%);
+    border-radius: 10px;
+    padding: .75rem 1rem;
+}
+
+input[type="submit"] {
+    background: #961010;
+    color: gold;
+}
